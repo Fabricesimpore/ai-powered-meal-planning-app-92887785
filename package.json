@@ -1,0 +1,24 @@
+{
+  "name": "ai-powered-meal-planning-app-92887785",
+  "version": "1.0.0",
+  "description": "Smart meal planning with AI nutrition analysis and grocery list generation\n\n**AI Learning Insights Applied:**\n• Invest in user experience: Ensure the app is easy to use and provides value to the user. This could include personalized meal plans, dietary restrictions, and preferences.\n• Define a clear business model: Whether it's a freemium model, advertising, partnerships with grocery stores, or something else, having a clear business model is crucial.\n• Seek partnerships: Partnering with grocery stores or food delivery services could provide additional value to users and potential revenue streams.\n\n**Warning Signals to Monitor:**\n⚠️ Low user retention: If users download the app but do not use it regularly, this could indicate that the app is not meeting their needs or expectations.\n⚠️ Poor user feedback: Negative reviews or low ratings on app stores can be a sign of user dissatisfaction.\n⚠️ Difficulty in monetizing: If the business model is not clearly defined and the app struggles to generate revenue, this could be a warning sign.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@stripe/stripe-js": "^2.0.0",
+    "stripe": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
